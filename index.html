@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    body{
+        background-color: azure;
+        color: darkmagenta;
+    }
+</style>
+<body>
+    <h1>Mi primer formulario</h1>
+
+    <br>
+    <form action="">
+        <label for="nombre">
+         Nombre(s)
+
+        </label>
+        <input type="text" 
+        name="nombre" id="campo-nombre">
+
+    <br>
+
+        <label for="apellidos">
+            Apellidos
+        </label>
+        <input type="text" 
+        name="apellidos" id="campo-apellidos">
+
+    <br>
+
+    <label for="fecha">
+        Fecha Nacimiento
+    </label>
+    <input type="date" name="Fecha nacimiento" id="campo-fecha">
+
+    <br>
+
+    <label for="correo">
+        Correo Electrónico
+    </label>
+    <input type="email" 
+    name="correo" id="campo-correo">
+
+    <br>
+
+    <label for="telefono">
+        Telefono
+    </label>
+    <input type="tel" name="telefono" id="campo-telefono">
+
+    <br>
+
+    <label for="género">
+        Género
+    </label>
+    <select name="género" id="campo-género">
+        <option value="1">Femenino</option>
+        <option value="2">Masculino</option>
+    </select>
+
+    <br>
+
+    <label for="archivo">
+        Selección de archivo
+    </label>
+    <input type="file">
+
+    <br>
+
+    <button type="submit">
+        Guardar Datos
+    </button>
+    </form>
+    
+</body>
+</html>
